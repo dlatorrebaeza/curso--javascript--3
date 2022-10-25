@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: lightgreen;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0a58ca;
+}
+
+.title {
+  color: black;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  margin: 0.75rem;
+}
+
+.card-title {
+  font-size: 25px;
+  margin-top: 0;
+  margin-bottom: 1px;
+  line-height: 1.5;
+}
+
+.imgProductos {
+  width: 200px;
+  height: 250px;
+  object-fit: contain;
+  margin-top: 1rem;
+}
+
+h5 {
+    line-height: 1.5;
+}
